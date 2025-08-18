@@ -1,50 +1,38 @@
-# React + TypeScript + Vite
+# 🌐 Mohamed Abdelhalem - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I'm a **Front-End Developer** from Tanta, Egypt.  
+Specialized in **React, TypeScript, JavaScript, HTML, CSS**, and building responsive, user-friendly web apps.  
+Currently **available for new projects**.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+[View Portfolio](https://mohamed-abdelhalem.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Skills
+- HTML, CSS, Sass, Bootstrap, Tailwind CSS  
+- JavaScript, TypeScript, jQuery  
+- React, Redux, Next.js  
+- GitHub  
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## 📂 Projects
+- **Buyno** → E-Commerce Web App (React, TypeScript, Tailwind, Flowbite React, TanStack Query)  
+- **Facebook Clone** → Social Media Web App (Next.js, TypeScript, MUI, Axios)  
+- **CMBD** → Movies & TV Shows App (React, TypeScript, Redux Toolkit, Firebase)  
+- **Fresh Cart** → E-Commerce App (React, JS, Tailwind, Context API)  
+- **Notta** → Notes App (Next.js, Redux Toolkit, Axios)  
+- **Weather** → Weather Forecast App (HTML, CSS, Bootstrap, Vanilla JS)  
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 📬 Contact
+- 📧 Email: **mohamed3ab7alem@gmail.com**  
+- 📱 Phone: **+20 1013625625**  
+- 🐙 GitHub: [https://github.com/MohamedAbdalhalem](#)  
+- 💼 LinkedIn: [https://www.linkedin.com/in/mohamed-abdelhalem-a158922a6/](#)  
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+---
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+✨ 2025 | Coded with ❤️ by **Mohamed Abdelhalem**
