@@ -23,7 +23,7 @@ export default function Navbar() {
               {darkMood == 'light'  ?<i onClick={theme} className="fa-solid   fa-moon text-xl text-[#4B5563] hover:text-black   transition-all cursor-pointer"></i> : <i onClick={theme} className="fa-solid fa-sun dark:text-[#E1E4E8] dark:hover:text-white transition-all cursor-pointer text-xl"></i> }
   
               <a
-                href="/public/Ahmed_Noah_Cv.pdf"
+                href="/Mohamed_Abdalhalim_CV.pdf"
                 download type="button" className="text-white cursor-pointer bg-[#050708] hover:bg-[#050708]/90 dark:text-black dark:bg-white  shadow-sm focus:ring-4 focus:outline-none focus:ring-[#050708]/50 font-medium rounded-lg text-base px-5 py-1.5 text-center inline-flex items-center dark:focus:ring-gray-200 dark:hover:bg-gray-200">
               Downloud CV
             </a>
@@ -45,7 +45,7 @@ export default function Navbar() {
               Switch Theme</p>
             {darkMood == 'light'  ?<i onClick={theme} className="fa-solid   fa-moon text-xl text-[#4B5563] hover:text-black   transition-all cursor-pointer"></i> : <i onClick={theme} className="fa-solid fa-sun dark:text-[#E1E4E8] dark:hover:text-white transition-all cursor-pointer text-xl"></i> }
             <a
-              href="/public/Ahmed_Noah_Cv.pdf"
+              href="/Mohamed_Abdalhalim_CV.pdf"
               download
               type="button" className="text-white w-full mt-4 cursor-pointer bg-[#050708] hover:bg-[#050708]/90 dark:text-black dark:bg-white  shadow-sm focus:ring-4 focus:outline-none focus:ring-[#050708]/50 font-medium rounded-lg text-base px-5 py-1.5 text-center inline-flex items-center dark:focus:ring-gray-200 dark:hover:bg-gray-200">
               Downloud CV
