@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    scroll-behavior: smooth;
+    scroll-padding: 40px;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+.sidebar{
+    display: none;
+}
+.sidebar > div{
+    transform: translateX(100%);
+}
