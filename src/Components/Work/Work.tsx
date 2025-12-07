@@ -1,6 +1,6 @@
 import Project from '../Project/Project'
 import Buyno from '../../assets/Projects/Buyno.png'
-import Facebook from '../../assets/Projects/Facebook.png'
+import SoicoHub from '../../assets/Projects/SoicoHub.png'
 import CMBD from '../../assets/Projects/CMBD.png'
 import Fresh_Cart from '../../assets/Projects/Fresh_Cart.png'
 import Notta from '../../assets/Projects/Notta.png'
@@ -24,11 +24,11 @@ export default function Work() {
       />
       <Project
         order='even'
-        code='https://github.com/MohamedAbdalhalem/Facebook'
-        link='https://facebook-indol-three.vercel.app/'
-        img={Facebook}
+        code='https://github.com/MohamedAbdalhalem/SoicoHub'
+        link='https://soico-hub-zowq.vercel.app/'
+        img={SoicoHub}
         name='Facebook'
-        description='social media web app built with Next.js 15 and TypeScript.
+        description='social media web app built with Next.js 16 and TypeScript.
         Users can sign up, log in, create posts, comment on others posts, and manage their profiles '
         tools={['Next.js','TypeScript','Mui','Emotion','Axios','React Hook Form','Day.js','JS-Cookie']}
       />
