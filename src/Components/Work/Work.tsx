@@ -27,7 +27,7 @@ export default function Work() {
         code='https://github.com/MohamedAbdalhalem/SoicoHub'
         link='https://soico-hub-zowq.vercel.app/'
         img={SoicoHub}
-        name='Facebook'
+        name='SoicoHub'
         description='social media web app built with Next.js 16 and TypeScript.
         Users can sign up, log in, create posts, comment on others posts, and manage their profiles '
         tools={['Next.js','TypeScript','Mui','Emotion','Axios','React Hook Form','Day.js','JS-Cookie']}
